@@ -7,7 +7,7 @@ for minions in range(0 ,8):
 for i in range(8):
     for j in range(3):
         if (i+j) % 2 == 0:
-            canvas.create_oval((i*50,j*50), ((i+1)*50,((j+1)*50)), fill="blue")
+            canvas.create_oval((i*50,j*50), ((i+1)*50,((j+1)*50)), fill="red")
     for j in range(5,8):
         if (i+j) % 2 == 0:
             canvas.create_oval((i*50,j*50), ((i+1)*50,((j+1)*50)), fill="pink")
